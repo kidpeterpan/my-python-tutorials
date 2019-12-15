@@ -30,5 +30,10 @@ print("var_tuple = ", var_tuple)
 print("var_tuple[2] is ", var_tuple[2])
 
 # Set
-var_set = {"a", "b"}
+var_set = set()
+var_set.add('a')
+var_set.add('c')
+var_set.add('a')
+var_set.add('b')
+var_set.add('c')
 print("var_set = ", var_set)
