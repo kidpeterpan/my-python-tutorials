@@ -1,5 +1,6 @@
 # if else is python control flow
 # if my dog is hungry then ...
+# if > elif > elif > ... > else
 
 is_my_dog_hungry = False
 is_give_food = False
