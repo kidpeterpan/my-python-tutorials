@@ -4,7 +4,7 @@
 is_my_dog_hungry = False
 is_give_food = False
 
-if(is_my_dog_hungry):
+if is_my_dog_hungry:
     is_give_food = True
 else:
     is_give_food = False
