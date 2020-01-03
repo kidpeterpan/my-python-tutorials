@@ -13,9 +13,10 @@ class Dog():
     def print_details(self):
         print(self.name + ' ' + str(self.spots))
 
-    def bark(self): # connect bark method to use self keyword
-        print('wolf!')
+    def bark(self,number): # connect bark method to use self keyword
+        for i in range(0,number):
+            print('wolf!')
 
 my_dog = Dog(name='Jojo',spots=True)
 my_dog.print_details()
-my_dog.bark()
+my_dog.bark(4)
