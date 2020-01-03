@@ -6,7 +6,7 @@ class Circle:
 
     # Method
     def get_circumference(self):
-        return self.radius * self.pi * 2
+        return self.radius * self.pi * 2 # this can be self.pi Circle.pi
 
 
 my_circle = Circle()
