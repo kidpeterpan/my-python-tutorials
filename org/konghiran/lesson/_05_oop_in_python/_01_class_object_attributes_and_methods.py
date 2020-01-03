@@ -13,7 +13,7 @@ class Dog():
     def print_details(self):
         print(self.name + ' ' + str(self.spots))
 
-    def bark(self):
+    def bark(self): # connect bark method to use self keyword
         print('wolf!')
 
 my_dog = Dog(name='Jojo',spots=True)
