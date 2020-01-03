@@ -1,4 +1,4 @@
-class Dog():
+class Dog:
 
     # Class Object Attribute
     # Same for any instance of a class
