@@ -1,11 +1,10 @@
 class Dog():
     def __init__(self, name,spots):
+        # Attributes
+        # We take in the argument
+        # Assign it using self.attribute_name
         self.name = name
-        # True/False
+        # Expect boolean True/False
         self.spots = spots
-    def print_details(self):
-        print(self.name + ' ' + str(self.spots))
 
 my_dog = Dog(name='Jojo',spots=True)
-
-my_dog.print_details()
