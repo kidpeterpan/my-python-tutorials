@@ -12,4 +12,9 @@ for i in list_number:
 
 print('list_number len is ',len(list_number))
 
-#TODO: add loop dictionary
+
+my_dict = {'k1':1,'k2':2,'k3':3}
+
+print('=== loop dictionary')
+for k,v in my_dict.items():
+    print(v)
