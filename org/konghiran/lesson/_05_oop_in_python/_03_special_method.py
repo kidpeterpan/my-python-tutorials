@@ -1,4 +1,5 @@
 class Book:
+
     def __init__(self,title,author,pages):
         self.title = title
         self.author = author
@@ -11,7 +12,11 @@ class Book:
         print('the object is gone')
 
 
-b = Book('Python rocks', 'Pan', 200)
+b = Book('Python tutorials', 'Pan', 200)
 print(b)
+s = set()
+del s
+print(s)
 del b  # delete variable from your computer memory
 print(b)
+

@@ -1,3 +1,26 @@
+# Inheritance
+print('======= Inheritance')
+
+
+class Animal:
+
+    def __init__(self,name):
+        self.name = name
+        print('from animal class')
+
+    def speak(self):
+        print('I am '+self.name+'.')
+
+
+class Rabbit(Animal):
+
+    def __init__(self,name):
+        self.name = name
+        print('creating a rabbit object')
+
+
+my_rabbit = Rabbit('Rabito')
+my_rabbit.speak()
 
 # Polymorphism
 print('======= Polymorphism')
@@ -31,7 +54,7 @@ pet_speak(dog)
 cat = Cat('Caty')
 pet_speak(cat)
 
-# Abstract method design for base class only
+# Abstract class design for base class only
 
 
 class Animal:
