@@ -1,10 +1,8 @@
-from __future__ import print_function
-from IPython.display import clear_output
 import random
 
 
 def display_board(board):
-    clear_output()
+    # clear_output()
     print('   |   |')
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
     print('   |   |')
